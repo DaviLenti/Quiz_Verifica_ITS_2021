@@ -19,7 +19,7 @@ public class MainActivity_prima_pagina_domanda extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_prima_pagina_domanda);
-        RadioButton Risposta_corretta= findViewById(R.id.risp1941);
+        RadioButton Risposta_corretta= findViewById(R.id.risp1_prima_domanda);
         Button Button_next_prima_pagina = findViewById(R.id.button_Next_prima_Pagina);
         RadioGroup radiogroup= findViewById(R.id.radiogroupprimapagina);
 

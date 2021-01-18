@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity_seconda_pagina_domanda">
+    tools:context=".MainActivity_sesta_pagina_domanda">
 
     <TextView
-        android:id="@+id/textView_seconda_pagina"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="2.La Germania invase il Belgio..."
+        android:id="@+id/textView_sesta_pagina"
+        android:layout_width="321dp"
+        android:layout_height="59dp"
+        android:text="6.L’esercito italiano subì la famosa sconfitta di Caporetto il 24 ottobre del 1914 "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.254"
@@ -19,7 +19,7 @@
         app:layout_constraintVertical_bias="0.22" />
 
     <RadioGroup
-        android:id="@+id/radiogroupsecondapagina"
+        android:id="@+id/radiogroupsestapagina"
         android:layout_width="297dp"
         android:layout_height="256dp"
         android:layout_marginStart="28dp"
@@ -35,30 +35,30 @@
         app:layout_constraintVertical_bias="0.0">
 
         <RadioButton
-            android:id="@+id/risp1_seconda_domanda"
+            android:id="@+id/risp1_sesta_domanda"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="Nonostante fossero alleati. "
+            android:text="VERO"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.016"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="168dp" />
 
         <RadioButton
-            android:id="@+id/risp2_seconda_domanda"
+            android:id="@+id/risp2_sesta_domanda"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nonostante  fossero neutrali. "
+            android:text="FALSO"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.016"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="168dp" />
 
-    </RadioGroup>
 
+    </RadioGroup>
     <Button
-        android:id="@+id/button_Next_seconda_pagina"
+        android:id="@+id/button_Next_sesta_Pagina"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Avanti"
@@ -68,4 +68,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.956" />
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,11 +6,98 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity_terza_pagina_domanda">
 
+
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView_terza_pagina"
+        android:layout_width="321dp"
+        android:layout_height="59dp"
+        android:text="3.L'operazione Neptune è nota come... "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.254"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.22" />
+
+    <RadioGroup
+        android:id="@+id/radiogroupterzapagina"
+        android:layout_width="297dp"
+        android:layout_height="256dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="195dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="280dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RadioButton
+            android:id="@+id/risp1_terza_domanda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="l'attacco a Pearl Harbor. "
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.016"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="168dp" />
+
+        <RadioButton
+            android:id="@+id/risp2_terza_domanda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" lo sbarco in Normandia. "
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.016"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="168dp" />
+
+        <RadioButton
+            android:id="@+id/risp3_terza_domanda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="l'eliminazione sistematica degli ebrei."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.016"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="168dp" />
+
+        <RadioButton
+            android:id="@+id/risp4_terza_domanda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" l'invasione del Belgio."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.016"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="168dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_Next_terza_Pagina"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="195dp" />
+        android:text="Avanti"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.956" />
+
+
+
+
+
+
+
+
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

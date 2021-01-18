@@ -35,7 +35,7 @@
         app:layout_constraintVertical_bias="0.0">
 
         <RadioButton
-            android:id="@+id/risp1940"
+            android:id="@+id/risp1_prima_domanda"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
@@ -46,7 +46,7 @@
             tools:layout_editor_absoluteY="168dp" />
 
         <RadioButton
-            android:id="@+id/risp1941"
+            android:id="@+id/risp2_prima_domanda"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="1941"
@@ -56,7 +56,7 @@
             tools:layout_editor_absoluteY="168dp" />
 
         <RadioButton
-            android:id="@+id/risp1942"
+            android:id="@+id/risp3_prima_domanda"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="1942"
@@ -66,7 +66,7 @@
             tools:layout_editor_absoluteY="168dp" />
 
         <RadioButton
-            android:id="@+id/risp1943"
+            android:id="@+id/risp4_prima_domanda"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="1943"
