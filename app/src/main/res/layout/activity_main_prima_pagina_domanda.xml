@@ -7,34 +7,39 @@
     tools:context=".MainActivity_prima_pagina_domanda">
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/textView_prima_pagina"
+        android:layout_width="321dp"
+        android:layout_height="59dp"
         android:text="1.La Guerra Lampo si trasformo in Guerra di Logoramento nel... "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintHorizontal_bias="0.254"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.271" />
+        app:layout_constraintVertical_bias="0.22" />
 
     <RadioGroup
-        android:layout_width="387dp"
-        android:layout_height="293dp"
-        android:layout_marginBottom="158dp"
         android:id="@+id/radiogroupprimapagina"
+        android:layout_width="297dp"
+        android:layout_height="256dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="195dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="280dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
         <RadioButton
             android:id="@+id/risp1940"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="1940"
             android:checked="false"
+            android:text="1940"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.016"
             app:layout_constraintStart_toStartOf="parent"
@@ -49,6 +54,7 @@
             app:layout_constraintHorizontal_bias="0.016"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="168dp" />
+
         <RadioButton
             android:id="@+id/risp1942"
             android:layout_width="wrap_content"
@@ -58,6 +64,7 @@
             app:layout_constraintHorizontal_bias="0.016"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="168dp" />
+
         <RadioButton
             android:id="@+id/risp1943"
             android:layout_width="wrap_content"
@@ -74,8 +81,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Avanti"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="539dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.956" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
