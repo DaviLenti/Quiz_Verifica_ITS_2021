@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.RadioButton;
+import android.widget.RadioGroup;
 
 public class MainActivity_prima_pagina_domanda extends AppCompatActivity {
     public static class Punteggio {
@@ -20,15 +21,17 @@ public class MainActivity_prima_pagina_domanda extends AppCompatActivity {
         setContentView(R.layout.activity_main_prima_pagina_domanda);
         RadioButton Risposta_corretta= findViewById(R.id.risp1941);
         Button Button_next_prima_pagina = findViewById(R.id.button_Next_prima_Pagina);
-
+        RadioGroup radiogroup= findViewById(R.id.radiogroupprimapagina);
 
         Button_next_prima_pagina.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-            if(Risposta_corretta.isSelected()){
+
+            if(Risposta_corretta.isChecked()){
                 Punteggio.val_pt++;
             }
             startActivity(new Intent(MainActivity_prima_pagina_domanda.this,MainActivity_seconda_pagina_domanda.class));
+                radiogroup.clearCheck();
             }
         });
     }
