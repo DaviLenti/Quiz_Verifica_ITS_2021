@@ -27,7 +27,7 @@ public class MainActivity_sesta_pagina_domanda extends AppCompatActivity {
                 if(Risposta_corretta_sesta_pagina.isChecked()){
                     MainActivity_prima_pagina_domanda.Punteggio.val_pt++;
                 }
-                startActivity(new Intent(MainActivity_sesta_pagina_domanda.this,MainActivity_sesta_pagina_domanda.class));
+                startActivity(new Intent(MainActivity_sesta_pagina_domanda.this,MainActivity_ottava_pagina_domanda.class));
                 radiogroup.clearCheck();
             }
         });
