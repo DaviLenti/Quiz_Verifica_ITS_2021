@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         Button_Pagina_Iniziale.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this,MainActivity_prima_domanda.class));
+                startActivity(new Intent(MainActivity.this,MainActivity_prima_pagina_domanda.class));
             }
         });
     }

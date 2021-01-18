@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MainActivity_prima_domanda extends AppCompatActivity {
+public class MainActivity_prima_pagina_domanda extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_prima_domanda);
+        setContentView(R.layout.activity_main_prima_pagina_domanda);
     }
 }
