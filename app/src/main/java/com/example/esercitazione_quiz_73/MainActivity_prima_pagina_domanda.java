@@ -16,6 +16,7 @@ public class MainActivity_prima_pagina_domanda extends AppCompatActivity {
     public static class Punteggio {
         public static int val_pt = 0;
     }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
