@@ -34,4 +34,8 @@ public class MainActivity_quarta_pagina_domanda extends AppCompatActivity {
 
 
     }
+    @Override
+    public void onBackPressed(){
+
+    }
 }

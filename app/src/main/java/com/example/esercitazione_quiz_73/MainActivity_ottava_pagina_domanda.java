@@ -30,9 +30,7 @@ public class MainActivity_ottava_pagina_domanda extends AppCompatActivity {
                 if(Risposta_corretta_ottava_pagina_1.isChecked()&&Risposta_corretta_ottava_pagina_2.isChecked()){
                     MainActivity_prima_pagina_domanda.Punteggio.val_pt=MainActivity_prima_pagina_domanda.Punteggio.val_pt+2;
                 }
-                if(Risposta_corretta_ottava_pagina_1.isChecked()){
-                    MainActivity_prima_pagina_domanda.Punteggio.val_pt++;
-                }
+
                 startActivity(new Intent(MainActivity_ottava_pagina_domanda.this,MainActivity2_nona_pagina_domanda.class));
                Risposta_corretta_ottava_pagina_1.setChecked(false);
                 Risposta_corretta_ottava_pagina_2.setChecked(false);
@@ -41,6 +39,10 @@ public class MainActivity_ottava_pagina_domanda extends AppCompatActivity {
             }
         });
 
+
+    }
+    @Override
+    public void onBackPressed(){
 
     }
 }

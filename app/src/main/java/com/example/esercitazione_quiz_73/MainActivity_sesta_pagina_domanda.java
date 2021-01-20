@@ -34,4 +34,8 @@ public class MainActivity_sesta_pagina_domanda extends AppCompatActivity {
 
 
     }
+    @Override
+    public void onBackPressed(){
+
+    }
 }

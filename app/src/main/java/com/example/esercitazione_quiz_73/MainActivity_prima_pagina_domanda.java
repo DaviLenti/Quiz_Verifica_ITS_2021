@@ -57,4 +57,8 @@ public class MainActivity_prima_pagina_domanda extends AppCompatActivity {
             }
         });
     }
+    @Override
+    public void onBackPressed(){
+
+    }
 }

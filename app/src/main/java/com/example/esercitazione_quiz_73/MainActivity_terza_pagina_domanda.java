@@ -35,4 +35,8 @@ public class MainActivity_terza_pagina_domanda extends AppCompatActivity {
 
 
     }
+    @Override
+    public void onBackPressed(){
+
+    }
 }

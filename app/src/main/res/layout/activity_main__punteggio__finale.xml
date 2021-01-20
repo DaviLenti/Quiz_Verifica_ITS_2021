@@ -7,7 +7,7 @@
     tools:context=".MainActivity_Punteggio_Finale">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView_punteggio_varibile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="260dp"
@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.365" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView_testo_punteggio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="252dp"
@@ -33,7 +33,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView_punteggio_su_10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="320dp"
@@ -43,4 +43,14 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ricomincia"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_punteggio_su_10"
+        app:layout_constraintVertical_bias="0.432"
+        tools:layout_editor_absoluteX="159dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

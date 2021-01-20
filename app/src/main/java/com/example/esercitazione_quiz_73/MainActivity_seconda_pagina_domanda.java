@@ -17,7 +17,7 @@ public class MainActivity_seconda_pagina_domanda extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_seconda_pagina_domanda);
 
-        RadioButton Risposta_corretta_seconda_pagina= findViewById(R.id.risp2_seconda_domanda);
+        RadioButton Risposta_corretta_seconda_domanda= findViewById(R.id.risp2_seconda_domanda);
         Button Button_next_seconda_pagina = findViewById(R.id.button_Next_seconda_pagina);
         RadioGroup radiogroup= findViewById(R.id.radiogroupsecondapagina);
 
@@ -25,7 +25,7 @@ public class MainActivity_seconda_pagina_domanda extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                if(Risposta_corretta_seconda_pagina.isChecked()){
+                if(Risposta_corretta_seconda_domanda.isChecked()){
                     MainActivity_prima_pagina_domanda.Punteggio.val_pt++;
                 }
 
@@ -33,6 +33,10 @@ public class MainActivity_seconda_pagina_domanda extends AppCompatActivity {
                 radiogroup.clearCheck();
             }
         });
+
+    }
+    @Override
+    public void onBackPressed(){
 
     }
 }
