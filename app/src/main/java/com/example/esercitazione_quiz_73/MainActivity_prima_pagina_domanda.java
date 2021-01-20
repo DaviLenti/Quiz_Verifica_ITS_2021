@@ -32,25 +32,8 @@ public class MainActivity_prima_pagina_domanda extends AppCompatActivity {
 
             if(Risposta_corretta_2.isChecked()){
                 Punteggio.val_pt++;
-                Risp_1_prima_domanda.setEnabled(false);
-                Risp_3_prima_domanda.setEnabled(false);
-                Risp_4_prima_domanda.setEnabled(false);
             }
-            if(Risp_1_prima_domanda.isChecked()){
-                Risposta_corretta_2.setEnabled(false);
-                Risp_3_prima_domanda.setEnabled(false);
-                Risp_4_prima_domanda.setEnabled(false);
-            }
-                if(Risp_3_prima_domanda.isChecked()){
-                    Risposta_corretta_2.setEnabled(false);
-                    Risp_1_prima_domanda.setEnabled(false);
-                    Risp_4_prima_domanda.setEnabled(false);
-                }
-                if(Risp_4_prima_domanda.isChecked()){
-                    Risposta_corretta_2.setEnabled(false);
-                    Risp_1_prima_domanda.setEnabled(false);
-                    Risp_3_prima_domanda.setEnabled(false);
-                }
+
             startActivity(new Intent(MainActivity_prima_pagina_domanda.this,MainActivity_seconda_pagina_domanda.class));
 
 

@@ -29,10 +29,7 @@ public class MainActivity2_nona_pagina_domanda extends AppCompatActivity {
                 }
 
                 startActivity(new Intent(MainActivity2_nona_pagina_domanda.this,MainActivity_Punteggio_Finale.class));
-                Risposta_corretta_nona_pagina_1.setChecked(false);
-                Risposta_corretta_nona_pagina_2.setChecked(false);
-                Risposta_3.setChecked(false);
-                Risposta_4.setChecked(false);
+                ;
             }
         });
     }
