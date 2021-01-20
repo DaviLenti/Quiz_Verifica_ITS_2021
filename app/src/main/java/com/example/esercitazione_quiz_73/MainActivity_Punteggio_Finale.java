@@ -3,6 +3,7 @@ package com.example.esercitazione_quiz_73;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -24,16 +25,25 @@ public class MainActivity_Punteggio_Finale extends AppCompatActivity {
 
         if(MainActivity_prima_pagina_domanda.Punteggio.val_pt==0){
             text_frase_variabile.setText("Non hai indovinato nessuna domanda!Riprova!");
+            final MediaPlayer mp_sad= MediaPlayer.create(this, R.raw.sad_sound_effect);
+            mp_sad.start();
         }
         if(MainActivity_prima_pagina_domanda.Punteggio.val_pt>0&&MainActivity_prima_pagina_domanda.Punteggio.val_pt<=5){
             text_frase_variabile.setText("Non è andata molto male...Ma devi riprovare");
+            final MediaPlayer mp_sad2= MediaPlayer.create(this, R.raw.sad_sound_effect);
+            mp_sad2.start();
+
         }
         if(MainActivity_prima_pagina_domanda.Punteggio.val_pt>=5&&MainActivity_prima_pagina_domanda.Punteggio.val_pt<=10){
             text_frase_variabile.setText("Accidenti, eri quasi riuscito ad arrivare al massimo punteggio");
+            final MediaPlayer mp_aww= MediaPlayer.create(this, R.raw.aww_sound_effects);
+            mp_aww.start();
 
         }
         if(MainActivity_prima_pagina_domanda.Punteggio.val_pt==10){
             text_frase_variabile.setText("Complimenti!!!Hai raggiunto il massimo punteggio");
+            final MediaPlayer mp_happy= MediaPlayer.create(this, R.raw.audience_clapping_sound_effect);
+            mp_happy.start();
         }
 
         button_ricomincia.setOnClickListener(new View.OnClickListener() {
