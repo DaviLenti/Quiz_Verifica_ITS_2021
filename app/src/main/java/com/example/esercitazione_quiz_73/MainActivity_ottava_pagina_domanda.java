@@ -33,7 +33,7 @@ public class MainActivity_ottava_pagina_domanda extends AppCompatActivity {
                 if(Risposta_corretta_ottava_pagina_1.isChecked()){
                     MainActivity_prima_pagina_domanda.Punteggio.val_pt++;
                 }
-                startActivity(new Intent(MainActivity_ottava_pagina_domanda.this,MainActivity_nona_pagina_domanda.class));
+                startActivity(new Intent(MainActivity_ottava_pagina_domanda.this,MainActivity2_nona_pagina_domanda.class));
                Risposta_corretta_ottava_pagina_1.setChecked(false);
                 Risposta_corretta_ottava_pagina_2.setChecked(false);
                 Risposta_3.setChecked(false);

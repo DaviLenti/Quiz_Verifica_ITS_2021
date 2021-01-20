@@ -28,6 +28,7 @@ public class MainActivity_seconda_pagina_domanda extends AppCompatActivity {
                 if(Risposta_corretta_seconda_pagina.isChecked()){
                     MainActivity_prima_pagina_domanda.Punteggio.val_pt++;
                 }
+
                 startActivity(new Intent(MainActivity_seconda_pagina_domanda.this,MainActivity_terza_pagina_domanda.class));
                 radiogroup.clearCheck();
             }

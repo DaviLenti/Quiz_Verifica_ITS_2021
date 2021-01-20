@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Esercitazione_Quiz_73">
-        <activity android:name=".MainActivity_nona_pagina_domanda"></activity>
+        <activity android:name=".MainActivity_Punteggio_Finale"></activity>
+        <activity android:name=".MainActivity2_nona_pagina_domanda" />
         <activity android:name=".MainActivity_ottava_pagina_domanda" />
         <activity android:name=".MainActivity_sesta_pagina_domanda" />
         <activity android:name=".MainActivity_quinta_pagina_domanda" />
