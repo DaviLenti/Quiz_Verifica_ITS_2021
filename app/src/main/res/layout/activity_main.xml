@@ -37,7 +37,7 @@
         android:id="@+id/textView2"
         android:layout_width="288dp"
         android:layout_height="300dp"
-        android:text="Benvenuto in questo quiz di storia.Le domande sono composte da risposte multiple,risposte singole e vero o falso.Le risposte singole e quelle vero o falso valgono 1pt invece le risposte multiple se entrambe sono inserite corretamente valgono 2pt. Il punteggio massimo è di 10pt."
+        android:text="Benvenuto in questo quiz di storia.Le domande sono composte da risposte multiple,risposte singole e vero o falso.Le risposte singole e quelle vero o falso valgono 1pt invece le risposte multiple se entrambe  inserite corretamente valgono 2pt. Il punteggio massimo è di 10pt.Buona fortuna"
         android:textSize="50px"
         android:fontFamily="sans-serif-medium"
         app:layout_constraintBottom_toBottomOf="parent"
