@@ -3,6 +3,7 @@ package com.example.esercitazione_quiz_73;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -22,7 +23,8 @@ public class MainActivity_ottava_pagina_domanda extends AppCompatActivity {
         CheckBox Risposta_3= findViewById(R.id.risp3_ottava_domanda);
         CheckBox Risposta_4= findViewById(R.id.risp4_ottava_domanda);
         Button Button_next_ottava_pagina = findViewById(R.id.button_Next_ottava_Pagina);
-
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.teal_200)));
+        this.setTitle("DOMANDA N°7");
         Button_next_ottava_pagina.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

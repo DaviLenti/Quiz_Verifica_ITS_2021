@@ -3,6 +3,7 @@ package com.example.esercitazione_quiz_73;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -19,7 +20,8 @@ public class MainActivity_sesta_pagina_domanda extends AppCompatActivity {
         RadioButton Risposta_corretta_sesta_pagina= findViewById(R.id.risp2_sesta_domanda);
         Button Button_next_sesta_pagina = findViewById(R.id.button_Next_sesta_Pagina);
         RadioGroup radiogroup= findViewById(R.id.radiogroupsestapagina);
-
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.teal_200)));
+        this.setTitle("DOMANDA N°6");
         Button_next_sesta_pagina.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

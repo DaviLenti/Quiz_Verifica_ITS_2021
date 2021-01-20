@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -25,7 +26,8 @@ public class MainActivity_prima_pagina_domanda extends AppCompatActivity {
         RadioButton Risp_4_prima_domanda= findViewById(R.id.risp4_prima_domanda);
         Button Button_next_prima_pagina = findViewById(R.id.button_Next_prima_Pagina);
         RadioGroup radiogroup= findViewById(R.id.radiogroupprimapagina);
-
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.teal_200)));
+        this.setTitle("DOMANDA N°1");
         Button_next_prima_pagina.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

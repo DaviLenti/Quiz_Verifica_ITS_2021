@@ -3,6 +3,7 @@ package com.example.esercitazione_quiz_73;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.drawable.ColorDrawable;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
@@ -22,6 +23,8 @@ public class MainActivity_Punteggio_Finale extends AppCompatActivity {
         TextView text_variabile= findViewById(R.id.textView_punteggio_varibile);
         TextView text_frase_variabile= findViewById(R.id.textView_frase_variabile);
         text_variabile.setText(strI);
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.teal_200)));
+        this.setTitle("PUNTEGGIO FINALE");
 
         if(MainActivity_prima_pagina_domanda.Punteggio.val_pt==0){
             text_frase_variabile.setText("Non hai indovinato nessuna domanda!Riprova!");
@@ -34,7 +37,7 @@ public class MainActivity_Punteggio_Finale extends AppCompatActivity {
             mp_sad2.start();
 
         }
-        if(MainActivity_prima_pagina_domanda.Punteggio.val_pt>=5&&MainActivity_prima_pagina_domanda.Punteggio.val_pt<=10){
+        if(MainActivity_prima_pagina_domanda.Punteggio.val_pt>5&&MainActivity_prima_pagina_domanda.Punteggio.val_pt<=10){
             text_frase_variabile.setText("Accidenti, eri quasi riuscito ad arrivare al massimo punteggio");
             final MediaPlayer mp_aww= MediaPlayer.create(this, R.raw.aww_sound_effects);
             mp_aww.start();

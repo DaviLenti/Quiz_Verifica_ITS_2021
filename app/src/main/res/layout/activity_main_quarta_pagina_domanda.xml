@@ -8,17 +8,17 @@
 
     <TextView
         android:id="@+id/textView_quarta_pagina"
-        android:layout_width="321dp"
-        android:layout_height="59dp"
-        android:text="4.La prima guerra mondiale fu il più grande conflitto armato mai combattuto fino alla seconda guerra mondiale. "
-        android:textSize="50px"
+        android:layout_width="343dp"
+        android:layout_height="135dp"
         android:fontFamily="sans-serif-condensed-light"
+        android:text="4.La prima guerra mondiale fu il più grande conflitto armato mai combattuto fino alla seconda guerra mondiale. "
+        android:textSize="70px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.254"
+        app:layout_constraintHorizontal_bias="0.38"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.22" />
+        app:layout_constraintVertical_bias="0.067" />
 
     <RadioGroup
         android:id="@+id/radiogroupquartapagina"
@@ -42,7 +42,7 @@
             android:layout_height="wrap_content"
             android:checked="false"
             android:text="VERO"
-            android:textSize="40px"
+            android:textSize="50px"
             android:fontFamily="sans-serif-medium"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.016"
@@ -54,7 +54,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="FALSO"
-            android:textSize="40px"
+            android:textSize="50px"
             android:fontFamily="sans-serif-medium"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.016"
@@ -69,6 +69,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Avanti"
+        android:textSize="80px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

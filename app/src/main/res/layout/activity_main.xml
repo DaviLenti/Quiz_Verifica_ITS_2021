@@ -25,6 +25,8 @@
         android:id="@+id/button_Pagina_Iniziale"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="80px"
         android:text="INIZIA QUIZ"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

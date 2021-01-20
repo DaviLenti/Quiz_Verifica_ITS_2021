@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Button Button_Pagina_Iniziale= findViewById(R.id.button_Pagina_Iniziale);
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.teal_200)));
-
+        this.setTitle("QUIZ DI STORIA");
         Button_Pagina_Iniziale.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
