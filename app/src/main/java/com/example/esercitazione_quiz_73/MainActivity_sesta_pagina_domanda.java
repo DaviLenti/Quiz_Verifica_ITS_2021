@@ -19,7 +19,6 @@ public class MainActivity_sesta_pagina_domanda extends AppCompatActivity {
 
         RadioButton Risposta_corretta_sesta_pagina= findViewById(R.id.risp2_sesta_domanda);
         Button Button_next_sesta_pagina = findViewById(R.id.button_Next_sesta_Pagina);
-        RadioGroup radiogroup= findViewById(R.id.radiogroupsestapagina);
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.teal_200)));
         this.setTitle("DOMANDA N°6");
         Button_next_sesta_pagina.setOnClickListener(new View.OnClickListener() {
@@ -30,11 +29,8 @@ public class MainActivity_sesta_pagina_domanda extends AppCompatActivity {
                     MainActivity_prima_pagina_domanda.Punteggio.val_pt++;
                 }
                 startActivity(new Intent(MainActivity_sesta_pagina_domanda.this,MainActivity_ottava_pagina_domanda.class));
-                radiogroup.clearCheck();
             }
         });
-
-
     }
     @Override
     public void onBackPressed(){

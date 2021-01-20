@@ -20,9 +20,8 @@ public class MainActivity_seconda_pagina_domanda extends AppCompatActivity {
 
         RadioButton Risposta_corretta_seconda_domanda= findViewById(R.id.risp2_seconda_domanda);
         Button Button_next_seconda_pagina = findViewById(R.id.button_Next_seconda_pagina);
-        RadioGroup radiogroup= findViewById(R.id.radiogroupsecondapagina);
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.teal_200)));
-        this.setTitle("SECONDA DOMANDA");
+        this.setTitle("DOMANDA N°2");
         Button_next_seconda_pagina.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -32,10 +31,8 @@ public class MainActivity_seconda_pagina_domanda extends AppCompatActivity {
                 }
 
                 startActivity(new Intent(MainActivity_seconda_pagina_domanda.this,MainActivity_terza_pagina_domanda.class));
-                radiogroup.clearCheck();
             }
         });
-
     }
     @Override
     public void onBackPressed(){

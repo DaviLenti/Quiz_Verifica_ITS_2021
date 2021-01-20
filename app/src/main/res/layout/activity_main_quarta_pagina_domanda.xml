@@ -8,17 +8,17 @@
 
     <TextView
         android:id="@+id/textView_quarta_pagina"
-        android:layout_width="343dp"
-        android:layout_height="135dp"
+        android:layout_width="292dp"
+        android:layout_height="91dp"
         android:fontFamily="sans-serif-condensed-light"
-        android:text="4.La prima guerra mondiale fu il più grande conflitto armato mai combattuto fino alla seconda guerra mondiale. "
+        android:text="4.Cosa venne approvato nel 1963?"
         android:textSize="70px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.067" />
+        app:layout_constraintVertical_bias="0.125" />
 
     <RadioGroup
         android:id="@+id/radiogroupquartapagina"
@@ -41,7 +41,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
-            android:text="VERO"
+            android:text="La legge sull'aborto"
             android:textSize="50px"
             android:fontFamily="sans-serif-medium"
             app:layout_constraintEnd_toEndOf="parent"
@@ -53,7 +53,29 @@
             android:id="@+id/risp2_quarta_domanda"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="FALSO"
+            android:text="La legge sul divorzio"
+            android:textSize="50px"
+            android:fontFamily="sans-serif-medium"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.016"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="168dp" />
+        <RadioButton
+            android:id="@+id/risp3_quarta_domanda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="La dichiarazione sulla discriminazione razziale "
+            android:textSize="50px"
+            android:fontFamily="sans-serif-medium"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.016"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="168dp" />
+        <RadioButton
+            android:id="@+id/risp4_quarta_domanda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="L'abolizione della pena di morte"
             android:textSize="50px"
             android:fontFamily="sans-serif-medium"
             app:layout_constraintEnd_toEndOf="parent"

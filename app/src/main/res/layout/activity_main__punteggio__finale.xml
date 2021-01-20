@@ -24,14 +24,15 @@
         android:id="@+id/textView_testo_punteggio"
         android:layout_width="225dp"
         android:layout_height="72dp"
-        android:fontFamily="sans-serif-medium"
-        android:text="PUNTEGGIO:"
+        android:fontFamily="sans-serif-condensed"
+        android:text="PUNTEGGIO"
         android:textSize="110px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.147" />
+        app:layout_constraintVertical_bias="0.15" />
 
     <TextView
         android:id="@+id/textView_punteggio_su_10"
@@ -82,9 +83,9 @@
         android:textSize="60px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.815"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.585" />
+        app:layout_constraintVertical_bias="0.588" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

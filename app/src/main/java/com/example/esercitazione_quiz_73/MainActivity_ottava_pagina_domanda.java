@@ -20,8 +20,6 @@ public class MainActivity_ottava_pagina_domanda extends AppCompatActivity {
 
         CheckBox Risposta_corretta_ottava_pagina_1= findViewById(R.id.risp1_ottava_domanda);
         CheckBox Risposta_corretta_ottava_pagina_2= findViewById(R.id.risp4_ottava_domanda);
-        CheckBox Risposta_3= findViewById(R.id.risp3_ottava_domanda);
-        CheckBox Risposta_4= findViewById(R.id.risp4_ottava_domanda);
         Button Button_next_ottava_pagina = findViewById(R.id.button_Next_ottava_Pagina);
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.teal_200)));
         this.setTitle("DOMANDA N°7");
@@ -34,10 +32,7 @@ public class MainActivity_ottava_pagina_domanda extends AppCompatActivity {
                 }
 
                 startActivity(new Intent(MainActivity_ottava_pagina_domanda.this,MainActivity2_nona_pagina_domanda.class));
-               Risposta_corretta_ottava_pagina_1.setChecked(false);
-                Risposta_corretta_ottava_pagina_2.setChecked(false);
-                Risposta_3.setChecked(false);
-                Risposta_4.setChecked(false);
+
             }
         });
 

@@ -19,13 +19,13 @@ public class MainActivity_Punteggio_Finale extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main__punteggio__finale);
         Button button_ricomincia = findViewById(R.id.button_reset);
-        String strI = String.valueOf(MainActivity_prima_pagina_domanda.Punteggio.val_pt);
+        String strI = String.valueOf(MainActivity_prima_pagina_domanda.Punteggio.val_pt);//->IL PUNTEGGIO VIENE CONVERTITO IN STRINGA
         TextView text_variabile= findViewById(R.id.textView_punteggio_varibile);
         TextView text_frase_variabile= findViewById(R.id.textView_frase_variabile);
-        text_variabile.setText(strI);
+        text_variabile.setText(strI);//->IL PUNTEGGIO VIENE IMPOSTATO COME TESTO DELLA VARIABILE (text_variabile)
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.teal_200)));
         this.setTitle("PUNTEGGIO FINALE");
-
+        //BLOCCO DI FRASI E SUONI CONDIZIONATE DAL PUNTEGGIO FINALE
         if(MainActivity_prima_pagina_domanda.Punteggio.val_pt==0){
             text_frase_variabile.setText("Non hai indovinato nessuna domanda!Riprova!");
             final MediaPlayer mp_sad= MediaPlayer.create(this, R.raw.sad_sound_effect);
@@ -48,10 +48,11 @@ public class MainActivity_Punteggio_Finale extends AppCompatActivity {
             final MediaPlayer mp_happy= MediaPlayer.create(this, R.raw.audience_clapping_sound_effect);
             mp_happy.start();
         }
+        //BLOCCO DI FRASI E SUONI CONDIZIONATE DAL PUNTEGGIO FINALE
 
         button_ricomincia.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View v) { //->SE IL TASTO RICOMINCIA VIENE PREMUTO IL PUNTEGGIO VIENE RESETTATO E SI RIPARTE DALLA PRIMA ACTIVITY
                 MainActivity_prima_pagina_domanda.Punteggio.val_pt=0;
                 startActivity(new Intent(MainActivity_Punteggio_Finale.this,MainActivity.class));
             }
