@@ -37,7 +37,7 @@ public class MainActivity_Punteggio_Finale extends AppCompatActivity {
             mp_sad2.start();
 
         }
-        if(MainActivity_prima_pagina_domanda.Punteggio.val_pt>5&&MainActivity_prima_pagina_domanda.Punteggio.val_pt<=10){
+        if(MainActivity_prima_pagina_domanda.Punteggio.val_pt>5&&MainActivity_prima_pagina_domanda.Punteggio.val_pt<10){
             text_frase_variabile.setText("Accidenti, eri quasi riuscito ad arrivare al massimo punteggio");
             final MediaPlayer mp_aww= MediaPlayer.create(this, R.raw.aww_sound_effects);
             mp_aww.start();
