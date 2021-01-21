@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:text="2.La Germania invase il Belgio..."
         android:textSize="70px"
+        android:textAlignment="center"
         android:fontFamily="sans-serif-condensed-light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -13,6 +13,7 @@
         android:layout_height="59dp"
         android:text="3.L'operazione Neptune è nota come... "
         android:textSize="70px"
+        android:textAlignment="center"
         android:fontFamily="sans-serif-condensed-light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

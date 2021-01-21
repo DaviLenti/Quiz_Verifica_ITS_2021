@@ -11,9 +11,10 @@
         android:id="@+id/textView_quinta_pagina"
         android:layout_width="321dp"
         android:layout_height="59dp"
-        android:text="5.La Russia partecipò al primo conflitto mondiale fino al 1918"
-        android:textSize="70px"
         android:fontFamily="sans-serif-condensed-light"
+        android:text="5.La Russia partecipò al primo conflitto mondiale fino al 1918"
+        android:textAlignment="center"
+        android:textSize="70px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.254"
@@ -31,8 +32,10 @@
         android:layout_marginEnd="28dp"
         android:layout_marginRight="28dp"
         android:layout_marginBottom="280dp"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
@@ -42,9 +45,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="false"
+            android:fontFamily="sans-serif-medium"
             android:text="VERO"
             android:textSize="50px"
-            android:fontFamily="sans-serif-medium"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.016"
             app:layout_constraintStart_toStartOf="parent"
@@ -54,9 +57,9 @@
             android:id="@+id/risp2_quinta_domanda"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
             android:text="FALSO"
             android:textSize="50px"
-            android:fontFamily="sans-serif-medium"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.016"
             app:layout_constraintStart_toStartOf="parent"
@@ -77,8 +80,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.956" />
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

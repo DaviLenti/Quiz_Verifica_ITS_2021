@@ -11,6 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="QUIZ DI STORIA"
+        android:textAlignment="center"
         android:textSize="90px"
         android:fontFamily="sans-serif-condensed-light"
 
@@ -28,6 +29,7 @@
         android:fontFamily="sans-serif-medium"
         android:textSize="80px"
         android:text="INIZIA QUIZ"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -41,6 +43,7 @@
         android:layout_height="300dp"
         android:text="Benvenuto in questo quiz di storia.Le domande sono composte da risposte multiple,risposte singole e vero o falso.Le risposte singole e quelle vero o falso valgono 1pt invece le risposte multiple se entrambe  inserite corretamente valgono 2pt. Il punteggio massimo è di 10pt.Buona fortuna"
         android:textSize="50px"
+        android:textAlignment="center"
         android:fontFamily="sans-serif-medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
