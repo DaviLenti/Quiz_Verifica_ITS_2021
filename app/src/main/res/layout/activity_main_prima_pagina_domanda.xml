@@ -8,18 +8,18 @@
 
     <TextView
         android:id="@+id/textView_prima_pagina"
-        android:layout_width="359dp"
-        android:layout_height="127dp"
+        android:layout_width="327dp"
+        android:layout_height="93dp"
         android:fontFamily="sans-serif-condensed-light"
         android:text="1.In che scandalo fu coinvolto l’ex-presidente americano Reagan?"
         android:textAlignment="center"
         android:textSize="70px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.253"
+        app:layout_constraintHorizontal_bias="0.321"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.076" />
+        app:layout_constraintVertical_bias="0.208" />
 
     <RadioGroup
         android:id="@+id/radiogroupprimapagina"

@@ -17,8 +17,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button Button_Pagina_Iniziale= findViewById(R.id.button_Pagina_Iniziale);
-        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.teal_200)));//-> CAMBIA COLORE NAVBAR
-        this.setTitle("QUIZ DI STORIA"); //-> IMPOSTA IL TITOLO DELLA NAVBAR
+        getSupportActionBar().hide(); //->NASCONDE ACTION BAR
+
         Button_Pagina_Iniziale.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -10,7 +10,7 @@
         android:id="@+id/textView_punteggio_varibile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-condensed-light"
+        android:fontFamily="sans-serif-condensed"
         android:text="0"
         android:textSize="160px"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -21,27 +21,10 @@
         app:layout_constraintVertical_bias="0.352" />
 
     <TextView
-        android:id="@+id/textView_testo_punteggio"
-        android:layout_width="225dp"
-        android:layout_height="72dp"
-        android:layout_marginTop="99dp"
-        android:layout_marginBottom="554dp"
-        android:fontFamily="sans-serif-condensed"
-        android:text="PUNTEGGIO"
-        android:textAlignment="center"
-        android:textSize="110px"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.01" />
-
-    <TextView
         android:id="@+id/textView_punteggio_su_10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-condensed-light"
+        android:fontFamily="sans-serif-condensed"
         android:text="10"
         android:textSize="160px"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -67,7 +50,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-condensed-light"
+        android:fontFamily="sans-serif-condensed"
         android:text="/"
         android:textSize="160px"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -91,5 +74,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.588" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="222dp"
+        android:layout_height="125dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.062"
+        app:srcCompat="@drawable/score_img" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

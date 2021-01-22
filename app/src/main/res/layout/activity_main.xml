@@ -6,30 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="QUIZ DI STORIA"
-        android:textAlignment="center"
-        android:textSize="90px"
-        android:fontFamily="sans-serif-condensed-light"
-
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.049" />
-
     <Button
         android:id="@+id/button_Pagina_Iniziale"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-medium"
-        android:textSize="80px"
         android:text="INIZIA QUIZ"
         android:textAlignment="center"
+        android:textSize="80px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -41,16 +25,16 @@
         android:id="@+id/textView2"
         android:layout_width="288dp"
         android:layout_height="300dp"
-        android:text="Benvenuto in questo quiz di storia.Le domande sono composte da risposte multiple,risposte singole e vero o falso.Le risposte singole e quelle vero o falso valgono 1pt invece le risposte multiple se entrambe  inserite corretamente valgono 2pt. Il punteggio massimo è di 10pt.Buona fortuna"
-        android:textSize="50px"
-        android:textAlignment="center"
         android:fontFamily="sans-serif-medium"
+        android:text="Benvenuto in questo quiz di storia.Le domande sono composte da risposte multiple,risposte singole e vero o falso.Le risposte singole e quelle vero o falso valgono 1pt invece le risposte multiple se entrambe  inserite correttamente valgono 2pt. Il punteggio massimo è di 10pt.Buona fortuna"
+        android:textAlignment="center"
+        android:textSize="50px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.329" />
+        app:layout_constraintVertical_bias="0.498" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -62,4 +46,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.739"
         app:srcCompat="@drawable/word_history_studing_little_people_260nw_1408857995" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="232dp"
+        android:layout_height="115dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018"
+        app:srcCompat="@drawable/quiz_3d" />
 </androidx.constraintlayout.widget.ConstraintLayout>
